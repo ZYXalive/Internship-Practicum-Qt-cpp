@@ -58,7 +58,7 @@ MainWindow::MainWindow(QWidget *parent)
     createToolBar();
     createStatusBar();
 
-    setWindowTitle(tr("2025112454-朱雅新-StandardItemModel数据模型"));
+    setWindowTitle(tr("StandardItemModel数据模型"));
     resize(800, 500);
 
     connect(model, &QStandardItemModel::itemChanged,

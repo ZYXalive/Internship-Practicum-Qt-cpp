@@ -52,7 +52,7 @@ public:
 
     void retranslateUi(QDialog *Dialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "2025112454-\346\234\261\351\233\205\346\226\260-\345\255\246\347\224\237\344\277\241\346\201\257\345\275\225\345\205\245\344\270\216\346\230\276\347\244\272", nullptr));
+        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\345\255\246\347\224\237\344\277\241\346\201\257\345\275\225\345\205\245\344\270\216\346\230\276\347\244\272", nullptr));
         m_nameEdit->setPlaceholderText(QCoreApplication::translate("Dialog", "\350\257\267\350\276\223\345\205\245\345\247\223\345\220\215", nullptr));
         m_genderGroup->setTitle(QString());
         m_radioMale->setText(QCoreApplication::translate("Dialog", "\347\224\267", nullptr));

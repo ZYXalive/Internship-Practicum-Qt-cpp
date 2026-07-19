@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>2025112454-朱雅新-学生信息录入与显示</string>
+   <string>学生信息录入与显示</string>
   </property>
   <widget class="QLineEdit" name="m_nameEdit">
    <property name="geometry">

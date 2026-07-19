@@ -8,7 +8,7 @@ Dialog::Dialog(QWidget *parent)
 {
     setupUI();
     // 设置窗口标题：学号-姓名-进制转换器
-    setWindowTitle("2025112454-朱雅新-进制转换器");
+    setWindowTitle("进制转换器");
 }
 
 Dialog::~Dialog()

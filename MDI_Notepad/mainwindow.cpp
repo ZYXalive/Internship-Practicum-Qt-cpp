@@ -28,7 +28,7 @@ MainWindow::MainWindow(QWidget *parent)
     createStatusBar();
 
     // 设置窗口属性
-    setWindowTitle(tr("2025112454-朱雅新-MDI记事本"));
+    setWindowTitle(tr("MDI记事本"));
     setMinimumSize(800, 600);
     resize(1000, 700);
 
@@ -246,7 +246,6 @@ void MainWindow::about()
 {
     QMessageBox::about(this, tr("关于MDI记事本"),
                        tr("Qt MDI多文档记事本应用程序\n"
-                          "2025112454-朱雅新\n"
                           "软件设计实习 - 第四次"));
 }
 

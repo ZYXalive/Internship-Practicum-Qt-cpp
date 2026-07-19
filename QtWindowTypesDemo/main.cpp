@@ -25,13 +25,13 @@ int main(int argc, char *argv[])
     // ============ 2. QMainWindow ============
     // QMainWindow 有菜单栏、工具栏、状态栏、中央部件区域
     QMainWindow mainWindow;
-    // 【需要修改】将标题改为：欢迎你，你的学号-姓名
-    mainWindow.setWindowTitle("欢迎你，2025112454-朱雅新");
+    // QMainWindow 窗口标题
+    mainWindow.setWindowTitle("欢迎使用QMainWindow窗口");
     // 设置窗口大小：宽600，高450
     mainWindow.resize(600, 450);
 
     QLabel *label2 = new QLabel("QMainWindow：有菜单栏、工具栏、状态栏的顶层窗口\n"
-                                "标题已设置为：\"欢迎你，学号-姓名\"\n"
+                                "标题已设置为：\"欢迎使用QMainWindow窗口\"\n"
                                 "大小已设置为：600 x 450");
     mainWindow.setCentralWidget(label2);
     label2->setAlignment(Qt::AlignCenter);

@@ -7,7 +7,7 @@ Dialog::Dialog(QWidget *parent)
     : QDialog(parent)
 {
     setupUI();
-    setWindowTitle("2025112454-朱雅新-学生信息录入与显示");
+    setWindowTitle("学生信息录入与显示");
 
     // 连接自定义信号和槽 —— 当列表满10条时触发
     connect(this, SIGNAL(listFull()), this, SLOT(onListFull()));
@@ -191,8 +191,6 @@ void Dialog::onAboutClicked()
     // 弹出关于对话框，显示学号和姓名
     QMessageBox::about(this, "关于",
                        "学生信息录入系统\n\n"
-                       "学号：2025112454\n"
-                       "姓名：朱雅新\n\n"
                        "软件设计实习——第二讲");
 }
 

@@ -60,7 +60,7 @@ MainWindow::MainWindow(QWidget *parent)
     createDockWidget();
     createStatusBar();
 
-    setWindowTitle(tr("2025112454-朱雅新-图片查看器"));
+    setWindowTitle(tr("图片查看器"));
     resize(900, 700);
 
     updateStatusBar();

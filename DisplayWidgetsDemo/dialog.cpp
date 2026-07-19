@@ -15,7 +15,7 @@ Dialog::Dialog(QWidget *parent)
     : QDialog(parent)
 {
     setupUI();
-    setWindowTitle("2025112454-朱雅新-显示部件演示");
+    setWindowTitle("显示部件演示");
     resize(700, 600);
 }
 

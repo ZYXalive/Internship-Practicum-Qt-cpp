@@ -32,7 +32,7 @@ public:
 
     void retranslateUi(QDialog *Dialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "2025112454-\346\234\261\351\233\205\346\226\260-\346\230\276\347\244\272\351\203\250\344\273\266\346\274\224\347\244\272", nullptr));
+        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\346\230\276\347\244\272\351\203\250\344\BB\266\346\274\224\347\244\272", nullptr));
     } // retranslateUi
 
 };

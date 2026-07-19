@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>2025112454-朱雅新-进制转换器</string>
+   <string>进制转换器</string>
   </property>
   <widget class="QLineEdit" name="m_inputEdit">
    <property name="geometry">

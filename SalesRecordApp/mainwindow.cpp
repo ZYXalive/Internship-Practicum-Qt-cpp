@@ -9,7 +9,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    setWindowTitle("2025112454-朱雅新-销售记录管理系统");
+    setWindowTitle("销售记录管理系统");
     resize(550, 450);
 
     // 重置静态总营业额

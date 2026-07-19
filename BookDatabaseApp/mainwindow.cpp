@@ -16,7 +16,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    setWindowTitle("2025112454-朱雅新-图书数据库管理系统");
+    setWindowTitle("图书数据库管理系统");
     resize(750, 650);
 
     initDatabase();

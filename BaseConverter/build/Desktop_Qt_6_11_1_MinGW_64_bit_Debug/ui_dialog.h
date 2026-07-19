@@ -44,7 +44,7 @@ public:
 
     void retranslateUi(QDialog *Dialog)
     {
-        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "2025112454-\346\234\261\351\233\205\346\226\260-\350\277\233\345\210\266\350\275\254\346\215\242\345\231\250", nullptr));
+        Dialog->setWindowTitle(QCoreApplication::translate("Dialog", "\350\277\233\345\210\266\350\275\254\346\215\242\345\231\250", nullptr));
         m_inputEdit->setText(QCoreApplication::translate("Dialog", "0", nullptr));
         m_resultEdit->setText(QCoreApplication::translate("Dialog", "0", nullptr));
     } // retranslateUi

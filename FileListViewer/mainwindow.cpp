@@ -11,7 +11,7 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
-    setWindowTitle("2025112454-朱雅新-文件列表查看器");
+    setWindowTitle("文件列表查看器");
     resize(700, 500);
 
     currentFont = QFont("Microsoft YaHei", 10);
