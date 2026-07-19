@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>2025112454-朱雅新-进制转换器</string>
+  </property>
+  <widget class="QLineEdit" name="m_inputEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>310</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="m_resultEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>310</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <!-- 使用信号槽编辑器建立关联 -->
+  <connection>
+   <sender>m_calcButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onCalculateClicked()</slot>
+  </connection>
+  <connection>
+   <sender>m_clearButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onClearClicked()</slot>
+  </connection>
+  <connection>
+   <sender>m_exitButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>onExitClicked()</slot>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onCalculateClicked()</slot>
+  <slot>onClearClicked()</slot>
+  <slot>onExitClicked()</slot>
+  <slot>onDigitClicked()</slot>
+ </slots>
+</ui>
