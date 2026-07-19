@@ -16,6 +16,6 @@
 | **SignalSlotDemo** | 控制台程序，演示 Qt 信号与槽的一对多连接、多对一连接及重载信号 |
 | **StandardItemModelDemo** | 学生信息管理系统，基于 QStandardItemModel + 自定义委托，支持 CSV 导入导出 |
 | **StudentInfoEntry** | 学生信息录入系统，演示自定义信号/槽、列表项增删与上限控制 |
-| **Win32MessageBoxApp** | 纯 Win32 API 桌面程序（无 Qt），显示"你好，西南交通大学"消息框 |
+| **Win32MessageBoxApp** | 纯 Win32 API 桌面程序（无 Qt），显示"你好"消息框 |
 
 > 各文件夹名已按英文命名概括其核心功能，便于按字母序快速定位。
